@@ -20,9 +20,9 @@ static int integral_prior = 0;
 static float integral = 0;
 static float derivative = 0;
 
-static float kp = 8;
-static float ki = 0.1 ;
-static float kd = 0.0;
+static float kp = 6.00;
+static float ki = 0.046 ;
+static float kd = 1;
 
 static int dutycycle;
 
